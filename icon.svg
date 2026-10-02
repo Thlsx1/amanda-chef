@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="100" fill="#FBF8F5"/>
+  <rect x="24" y="24" width="464" height="464" rx="80" fill="#F3EEE8" stroke="#6B3E26" stroke-width="8" stroke-dasharray="16 10"/>
+  
+  <!-- Notebook spine detail -->
+  <line x1="110" y1="60" x2="110" y2="452" stroke="#C8742C" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="110" cy="110" r="10" fill="#6B3E26"/>
+  <circle cx="110" cy="190" r="10" fill="#6B3E26"/>
+  <circle cx="110" cy="270" r="10" fill="#6B3E26"/>
+  <circle cx="110" cy="350" r="10" fill="#6B3E26"/>
+  <circle cx="110" cy="430" r="10" fill="#6B3E26"/>
+
+  <!-- Cake Icon in Center -->
+  <g transform="translate(190, 150)">
+    <!-- Plate -->
+    <ellipse cx="90" cy="230" rx="110" ry="18" fill="#E8DEC8" stroke="#6B3E26" stroke-width="6"/>
+    <!-- Bottom layer -->
+    <path d="M 15 170 C 15 170, 15 210, 90 210 C 165 210, 165 170, 165 170 L 165 130 C 165 130, 165 170, 90 170 C 15 170, 15 130, 15 130 Z" fill="#6B3E26"/>
+    <!-- Frosting drip / middle -->
+    <path d="M 15 130 C 15 130, 15 155, 90 155 C 165 155, 165 130, 165 130 L 165 90 C 165 90, 165 120, 90 120 C 15 120, 15 90, 15 90 Z" fill="#C8742C"/>
+    <!-- Top Cake base -->
+    <ellipse cx="90" cy="90" rx="75" ry="30" fill="#DF9755" stroke="#6B3E26" stroke-width="6"/>
+    
+    <!-- Heart topper -->
+    <path d="M 90 45 C 90 45, 70 20, 52 35 C 35 50, 50 75, 90 100 C 130 75, 145 50, 128 35 C 110 20, 90 45, 90 45 Z" fill="#C8742C" stroke="#6B3E26" stroke-width="5"/>
+    
+    <!-- Sparkles -->
+    <path d="M 30 50 L 35 35 L 50 30 L 35 25 L 30 10 L 25 25 L 10 30 L 25 35 Z" fill="#C8742C"/>
+    <path d="M 160 55 L 163 45 L 173 42 L 163 39 L 160 29 L 157 39 L 147 42 L 157 45 Z" fill="#C8742C"/>
+  </g>
+
+  <!-- Title Text Badge -->
+  <rect x="140" y="405" width="280" height="48" rx="24" fill="#6B3E26"/>
+  <text x="280" y="436" fill="#FBF8F5" font-family="-apple-system, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" letter-spacing="1">MI CUADERNO</text>
+</svg>
